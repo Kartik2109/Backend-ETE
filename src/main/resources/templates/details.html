@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+    body{
+        background-color: orange;
+        }
+    </style>
+</head>
+<body>
+<h1>
+    There are the details:-
+</h1>
+<table>
+    <tr> <th>Id</th> <th>Name</th> <th>Email</th><th>Age</th><th>Phone_Number</th> </tr>
+    <tr th:each="users : ${users}"> <td th:text="${users.id}">Id</td> <td th:text="${users.name}">Name</td>
+        <td th:text="${users.Email}">Email</td>
+        <td th:text="${users.Age}">Age</td>
+        <td th:text="${users.Email}">Phone_Number</td></tr>
+</table>
+</body>
+</html>
