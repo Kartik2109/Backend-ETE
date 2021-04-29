@@ -11,6 +11,10 @@
             <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/BackendETE"/>
             <property name="javax.persistence.jdbc.user" value="postgres"/>
             <property name="javax.persistence.jdbc.password" value="kartik2109"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://ec2-52-21-252-142.compute-1.amazonaws.com/db88qccll6es5p"/>
+            <property name="javax.persistence.jdbc.user" value="awrpeygfnrchkq"/>
+            <property name="javax.persistence.jdbc.password" value="39aaafdeb1a8a1b0bf898c1cfe9d778cf00c162fb51cdb73ac71eeefbc4e700b"/>
+
 
             <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQL10Dialect"/>
             <property name="hibernate.temp.use_jdbc_metadata_defaults" value="flase"/>
